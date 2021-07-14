@@ -69,6 +69,7 @@
 		44C530B7269E5BBF000E44A8 /* chapter4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C530B6269E5BBF000E44A8 /* chapter4.cpp */; };
 		44C530B9269E611D000E44A8 /* chapter5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C530B8269E611D000E44A8 /* chapter5.cpp */; };
 		44C530BB269E6899000E44A8 /* chapter6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C530BA269E6899000E44A8 /* chapter6.cpp */; };
+		44C530BD269E776E000E44A8 /* chapter7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C530BC269E776E000E44A8 /* chapter7.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -157,6 +158,7 @@
 		44C530B6269E5BBF000E44A8 /* chapter4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter4.cpp; sourceTree = "<group>"; };
 		44C530B8269E611D000E44A8 /* chapter5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter5.cpp; sourceTree = "<group>"; };
 		44C530BA269E6899000E44A8 /* chapter6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter6.cpp; sourceTree = "<group>"; };
+		44C530BC269E776E000E44A8 /* chapter7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter7.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 				44C530B6269E5BBF000E44A8 /* chapter4.cpp */,
 				44C530B8269E611D000E44A8 /* chapter5.cpp */,
 				44C530BA269E6899000E44A8 /* chapter6.cpp */,
+				44C530BC269E776E000E44A8 /* chapter7.cpp */,
 			);
 			path = opencvdiego;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C530B7269E5BBF000E44A8 /* chapter4.cpp in Sources */,
+				44C530BD269E776E000E44A8 /* chapter7.cpp in Sources */,
 				448A7E65269BE98000E1FA26 /* chapter2.cpp in Sources */,
 				44C530B9269E611D000E44A8 /* chapter5.cpp in Sources */,
 				44C530B5269D0DC0000E44A8 /* chapter3.cpp in Sources */,
@@ -529,6 +533,7 @@
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter3.cpp,
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter5.cpp,
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter4.cpp,
+					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter6.cpp,
 				);
 				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/4.5.3/include/opencv4/**";
 				LIBRARY_SEARCH_PATHS = (
@@ -552,6 +557,7 @@
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter3.cpp,
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter5.cpp,
 					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter4.cpp,
+					/Users/diegosolis/Documents/TEC/Personal/opencvdiego/opencvdiego/chapter6.cpp,
 				);
 				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/4.5.3/include/opencv4/**";
 				LIBRARY_SEARCH_PATHS = (
