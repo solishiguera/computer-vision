@@ -24,7 +24,7 @@ int main()  {
     cvtColor(img, imgGray, COLOR_BGR2GRAY); // Change from colored to grayscale
     
     // Noise reduction
-    GaussianBlur(img, imgBlur, Size(3,3), 3,0);
+    GaussianBlur(imgGray, imgBlur, Size(3,3), 3,0);
     
     // Edge detection algorithm; we have to remove noise first
     Canny(imgBlur, imgCanny, 20, 150);
